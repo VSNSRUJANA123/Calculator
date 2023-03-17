@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <div class="calculator">
+        <div class="calculator-bg">
+            <div>
+                <input type="text" id="inputElement" class="input" readonly>
+                <div class="allbuttons">
+                    <button class="button-color calculator-button-color" onclick="inputElement.value=' '">AC</button>
+                    <button class="button-color calculator-button-color" onclick="inputElement.value+='%'">%</button>
+                    <button class="button-color calculator-button-color" id="delete">Del</button>
+                    <button class="button-color calculator-button-color" onclick="inputElement.value+='/'">/</button><br>
+                    <button class="button-color" onclick="inputElement.value+='7'">7</button>
+                    <button class="button-color" onclick="inputElement.value+='8'">8</button>
+                    <button class="button-color" onclick="inputElement.value+='9'">9</button>
+                    <button class="button-color calculator-button-color" onclick="inputElement.value+='*'">x</button><br>
+                    <button class="button-color" onclick="inputElement.value+='4'">4</button>
+                    <button class="button-color" onclick="inputElement.value+='5'">5 </button>
+                    <button class="button-color" onclick="inputElement.value+='6'">6 </button>
+                    <button class="button-color calculator-button-color" onclick="inputElement.value+='-'">- </button><br>
+                    <button class="button-color" onclick="inputElement.value+='1'">1</button>
+                    <button class="button-color" onclick="inputElement.value+='2'">2</button>
+                    <button class="button-color" onclick="inputElement.value+='3'">3</button>
+                    <button class="button-color calculator-button-color" onclick="inputElement.value+='+'">+</button><br>
+                    <button class="button-color" onclick="inputElement.value+='00'">00</button>
+                    <button class="button-color" onclick="inputElement.value+='0'">0</button>
+                    <button class="button-color" onclick="inputElement.value+='.'">.</button>
+                    <button class="button-color calculator-button-color" id="equalId" onclick="inputElement.value+='='">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
